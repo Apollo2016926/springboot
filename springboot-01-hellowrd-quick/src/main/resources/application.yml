@@ -1,2 +1,13 @@
 server:
   port: 8091
+person:
+  name: 李狗子
+  age: 18
+  birthday: 2019/05/04
+  map: {key1: val1,key2: val2}
+  list:
+    -12
+    -13
+  love:
+    des: 小泽玛利亚
+    age: 19
