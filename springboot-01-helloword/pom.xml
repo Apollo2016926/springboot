@@ -8,7 +8,7 @@
     <artifactId>springboot-01-helloword</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <!--管理springboot应用的所有依赖-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
