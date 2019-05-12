@@ -19,4 +19,11 @@ public class EmployeeController {
 
         return employeeService.getEmpById(id);
     }
+
+    @GetMapping("/emp/")
+    public Employee udateEMp(Employee employee) {
+        Employee employee1 = employeeService.udateEMp(employee);
+
+        return employee;
+    }
 }

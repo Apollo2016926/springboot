@@ -43,6 +43,8 @@ public class EmployeeCntroller {
     @GetMapping("/emp/{id}")
     public String toEditPage(@PathVariable("id") Integer id,Model model) {
         Employee employee = EmployeeDao.get(id);
+        Collection<Department> departments = DepartmentDao.getDepartments();
+        model.addAttribute("depts",departments);
         model.addAttribute("emp",employee);
 
         return "emp/add";
